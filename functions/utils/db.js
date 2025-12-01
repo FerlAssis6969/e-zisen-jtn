@@ -1,7 +1,7 @@
 const { getStore } = require('@netlify/blobs');
 
 const STORE_NAME = 'site-data';
-const SITE_ID = '93ce614d-91e5-402e-a7f7-7680dada039d'; // User provided ID
+const SITE_ID = '4cc18bc8-f5ae-42db-9b56-531d8a2194f8'; // User provided ID
 
 // Helper to get the store instance
 function getDB() {
@@ -61,3 +61,4 @@ module.exports = {
     updateStatus,
     getHistory
 };
+
